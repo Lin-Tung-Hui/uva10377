@@ -96,7 +96,6 @@ void uva10377(std::istream &is, std::ostream &os)
             vec.push_back(line);
         }
 
-#if 1
         int currentX, currentY;
 
         is >> currentX;
@@ -117,7 +116,6 @@ void uva10377(std::istream &is, std::ostream &os)
         os << maze.maze_result();
         if (number)
             os << std::endl;
-#endif
     }
     return;
 }
